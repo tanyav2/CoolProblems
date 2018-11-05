@@ -32,7 +32,3 @@ There are a few points I need to make about the solution that I came up with.
 
 4. Given these observations, I realized that the answer would certainly depend on whether the data type was signed or unsigned. For signed datatypes, **the answer would be: `2^(sizeof(type)*8 - 1) - 10` and for unsigned, it would be: `2^(sizeof(type)*8) - 10`**
 
-
-```python
-
-```
